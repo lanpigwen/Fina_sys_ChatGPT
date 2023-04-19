@@ -1,0 +1,65 @@
+        /* 整个页面的背景色 */
+        body {
+            background-color: #f0f0f0;
+        }
+        /* 对话框容器的样式 */
+        #messages {
+            width: 80%; /* 对话框容器的宽度 */
+            margin: 0 auto; /* 居中显示 */
+            background-color: #7e7c7c; /* 对话框容器的背景色 */
+            border-radius: 10px; /* 对话框容器的圆角 */
+            padding: 20px; /* 对话框容器的内边距 */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* 对话框容器的阴影 */
+            overflow-y: auto; /* 对话框内容超出容器高度时自动滚动 */
+            max-height: 800px; /* 对话框容器的最大高度，超出时出现滚动条 */
+        }
+        /* 单个消息的样式 */
+        .message {
+            margin-bottom: 10px; /* 单个消息的下边距 */
+            padding: 10px; /* 单个消息的内边距 */
+            border-radius: 10px; /* 单个消息的圆角 */
+            clear: both;
+            overflow-wrap: break-word; /* 长消息自动换行 */
+        }
+        /* 用户发送的消息的样式 */
+        .message-sent {
+            background-color: #F1F0F0;
+            color: #000000;
+            float: right;
+        }
+        /* 机器人回复的消息的样式 */
+        .message-received {
+            background-color: #0084FF;
+            color: #FFFFFF;
+            float: left;
+        }
+        /* 输入框和发送按钮容器的样式 */
+        #input-container {
+            width: 80%; /* 输入框容器的宽度 */
+            margin: 20px auto 0; /* 上边距20px，居中显示 */
+            display: flex; /* 使用flex布局 */
+            align-items: center; /* 垂直居中 */
+            justify-content: space-between; /* 两个子元素之间间距最大 */
+        }
+        /* 输入框的样式 */
+        #message {
+            flex: 1; /* 自动调整宽度 */
+            padding: 10px; /* 输入框的内边距 */
+            border: none; /* 去除边框 */
+            border-radius: 5px; /* 输入框的圆角 */
+            font-size: 16px; /* 输入框的字体大小 */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* 输入框的阴影 */
+            height: 20px; /* 输入框的最小高度 */
+
+        }
+        /* 发送按钮的样式 */
+        #send {
+            padding: 10px 20px; /* 发送按钮的内边距 /
+            border: none; / 去除边框 /
+            border-radius: 5px; / 发送按钮的圆角 /
+            font-size: 16px; / 发送按钮的字体大小 /
+            background-color: #0084FF; / 发送按钮的背景色 /
+            color: #FFFFFF; / 发送按钮的字体颜色 /
+            cursor: pointer; / 鼠标指针样式 /
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); / 发送按钮的阴影 */
+            }
